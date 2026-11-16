@@ -1,0 +1,125 @@
+[
+  {
+    "id": null,
+    "business_id": null,
+    "business_name": "Taco Loco",
+    "title": "Taco Tuesday - $2 Off All Tacos",
+    "description": "Every Tuesday from 4pm to 9pm, get $2 off all tacos.",
+    "discount_type": "dollar_off",
+    "discount_value": "$2 off",
+    "days_valid": [
+      "tuesday"
+    ],
+    "start_time": "16:00",
+    "end_time": "21:00",
+    "category": "entrees",
+    "source_text": "\ud83c\udf2e TACO TUESDAY!! Every Tuesday 4pm-9pm, $2 off ALL tacos. Also we do happy hour daily from 3-6pm, $1 off all draft beers. Come hungry!!",
+    "confidence": 0.97,
+    "needs_review": false
+  },
+  {
+    "id": null,
+    "business_id": null,
+    "business_name": "Taco Loco",
+    "title": "Daily Happy Hour - $1 Off Draft Beers",
+    "description": "Every day from 3pm to 6pm, enjoy $1 off all draft beers.",
+    "discount_type": "happy_hour",
+    "discount_value": "$1 off",
+    "days_valid": [],
+    "start_time": "15:00",
+    "end_time": "18:00",
+    "category": "drinks",
+    "source_text": "\ud83c\udf2e TACO TUESDAY!! Every Tuesday 4pm-9pm, $2 off ALL tacos. Also we do happy hour daily from 3-6pm, $1 off all draft beers. Come hungry!!",
+    "confidence": 0.96,
+    "needs_review": false
+  },
+  {
+    "id": null,
+    "business_id": null,
+    "business_name": "The Brunch Spot",
+    "title": "Bottomless Mimosas Weekend Brunch Special",
+    "description": "Bottomless mimosas available for $15 with the purchase of any entree.",
+    "discount_type": "fixed_price",
+    "discount_value": "$15",
+    "days_valid": [
+      "saturday",
+      "sunday"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "category": "drinks",
+    "source_text": "Weekend Brunch Special - Saturday & Sunday only. Bottomless mimosas for $15 with any entree purchase. Ask your server for details.",
+    "confidence": 0.88,
+    "needs_review": true
+  },
+  {
+    "id": null,
+    "business_id": null,
+    "business_name": "Campus Pizza Co",
+    "title": "Student Monday Discount",
+    "description": "20% off entire order every Monday with valid student ID; dine-in only, not valid with other offers.",
+    "discount_type": "percent_off",
+    "discount_value": "20%",
+    "days_valid": [
+      "monday"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "category": null,
+    "source_text": "Student discount: 20% off your entire order every Monday with valid student ID. Dine-in only, not valid with other offers.",
+    "confidence": 0.97,
+    "needs_review": false
+  },
+  {
+    "id": null,
+    "business_id": null,
+    "business_name": "Sizzle & Smoke BBQ",
+    "title": "BOGO Ribs Thursday",
+    "description": "Buy one full rack of ribs and get one half rack free, available all day Thursday.",
+    "discount_type": "bogo",
+    "discount_value": null,
+    "days_valid": [
+      "thursday"
+    ],
+    "start_time": null,
+    "end_time": null,
+    "category": "entrees",
+    "source_text": "BOGO ribs every Thursday all day! Buy one full rack get one 1/2 rack free. Wing Wednesday: 50 cent wings 5-close. Family combo meal $39.99 feeds 4, available all week.",
+    "confidence": 0.97,
+    "needs_review": false
+  },
+  {
+    "id": null,
+    "business_id": null,
+    "business_name": "Sizzle & Smoke BBQ",
+    "title": "Wing Wednesday 50 Cent Wings",
+    "description": "Wings are 50 cents each every Wednesday from 5pm until close.",
+    "discount_type": "fixed_price",
+    "discount_value": "$0.50 per wing",
+    "days_valid": [
+      "wednesday"
+    ],
+    "start_time": "17:00",
+    "end_time": null,
+    "category": "entrees",
+    "source_text": "BOGO ribs every Thursday all day! Buy one full rack get one 1/2 rack free. Wing Wednesday: 50 cent wings 5-close. Family combo meal $39.99 feeds 4, available all week.",
+    "confidence": 0.88,
+    "needs_review": true
+  },
+  {
+    "id": null,
+    "business_id": null,
+    "business_name": "Sizzle & Smoke BBQ",
+    "title": "Family Combo Meal $39.99",
+    "description": "Family combo meal priced at $39.99 and feeds up to 4 people, available every day.",
+    "discount_type": "fixed_price",
+    "discount_value": "$39.99",
+    "days_valid": [],
+    "start_time": null,
+    "end_time": null,
+    "category": "entrees",
+    "source_text": "BOGO ribs every Thursday all day! Buy one full rack get one 1/2 rack free. Wing Wednesday: 50 cent wings 5-close. Family combo meal $39.99 feeds 4, available all week.",
+    "confidence": 0.92,
+    "needs_review": false
+  }
+]
